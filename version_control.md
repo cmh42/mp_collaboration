@@ -53,3 +53,31 @@ git remote add origin git@github.com:cmh42/mp_work.git
 git push --set-upstream origin main
 
 ```
+
+#### Part 2: Contribute to an existing repository on GitHub
+
+For this example I have created a  repository on github called `mp_test` (with various files - in fact, for simplicity, the same files as 
+those contained in `mp_work`). 
+
+```shell
+# Download the `mp_test` repository to your machine
+git clone git@github.com:cmh42/mp_test.git
+
+# Change into the `mp_test` directory
+cd mp_test
+
+# Create a new branch to store new changes
+git branch charles-branch
+
+# Make some changes. Here I just do a simple edit of the README file.
+echo "# Test area" >> README.md
+
+# Stage the changed file
+git add README.md
+
+# Take a snapshot of the staging area (anything that's been added)
+git commit -m "README edit"
+
+# Push changes to github
+git push --set-upstream origin charles-branch
+``` 
