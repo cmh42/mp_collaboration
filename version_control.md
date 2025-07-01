@@ -27,6 +27,29 @@ called `mp_work`. You should not initialise the repostory with a README or other
 Open a terminal (on your local device) and enter the following instructions line by line. 
 
 ```shell
-# create a new directory, and initialize it with git-specific functions
+# Create a new directory, and initialize it with git-specific functions
 git init mp_work
+
+# Change into the `mp_work` directory
+cd my_work
+
+# Create the first file in the project
+touch README.md
+
+# Create other files or copy other files from another directory (this is what I do here)
+# After this there should be 7 files in the folder my_work
+cp ../mp_work_old/*.* .
+
+# Add all the files to the staging area (or individually with files names)
+git add *
+
+# Take a snapshot of the staging area with information message
+git commit -m "Add all original files 010725"
+
+# provide the path for the repository you created on github
+git remote add origin git@github.com:cmh42/mp_work.git
+
+# push changes to github
+git push --set-upstream origin main
+
 ```
