@@ -1,4 +1,4 @@
-# version_contol
+# Version Control
 
 ### Preliminaries
 
