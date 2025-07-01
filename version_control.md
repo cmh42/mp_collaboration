@@ -22,4 +22,4 @@ The work here is based on the page: https://docs.github.com/en/get-started/using
 #### Part 1: Start a new repository and publish it to GitHub
 
 Start by creating a new repository on GitHub. (You need to create an account on Github first and then create a repository.  A suggested example of creating a repoistory is [Hello World](https://docs.github.com/en/get-started/start-your-journey/hello-world).) In the present example I created an empty repository 
-called `my_work`. 
+called `my_work`. You should not initialise the repostory with a README or other files... it should be empty, waiting for your code. 
