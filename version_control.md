@@ -19,4 +19,6 @@ We will construct a repository called `mp_work` and perform various file and ver
 
 The work here is based on the page: https://docs.github.com/en/get-started/using-git/about-git
 
-#### Part 1: Create repository and 
+#### Part 1: Start a new repository and publish it to GitHub
+
+Start by creating a new repository on GitHub. (You need to create an account on Github first. A suggested example is [Hello World](https://docs.github.com/en/get-started/start-your-journey/hello-world).)
