@@ -2,6 +2,7 @@
 
 ### Preliminaries
 
+We will be using SSH authentification. 
 The following instructions are for setting up SSH authentification on a Mac. Do a quick web search using the items to get instructions for other operating systems.
 
 1. [Check for existing SSH keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys)
