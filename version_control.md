@@ -13,3 +13,10 @@ The following instructions are for setting up SSH authentification on a Mac. Do 
 ## Version control, Git and Github
 
 These instructions are based on the following page: https://docs.github.com/en/get-started/using-git/about-git
+
+### Example 
+We will construct a repository called `mp_work` and perform various file and version control operations on it.  
+
+The work here is based on the page: https://docs.github.com/en/get-started/using-git/about-git
+
+#### Part 1: Create repository and 
