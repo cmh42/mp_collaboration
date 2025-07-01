@@ -81,3 +81,35 @@ git commit -m "README edit"
 # Push changes to github
 git push --set-upstream origin charles-branch
 ``` 
+
+#### Part 3: Contribute to an existing branch of a repository on GitHub
+
+For this example I will use  the repository `mp_test` from above which has a `main` branch and the `charles-branch` branch.
+
+
+```shell
+# Change into the `mp_test` directory
+cd mp_test
+
+# Update all remote tracking branches, including the currently checked out branch
+git pull 
+
+# Have a look at the branches (the active branch is in green)
+git branch
+
+# Change into the existing branch called `charles-branch`.
+git checkout charles-branch
+
+# Make changes, e.g. I add a new file here and add another line to README.md
+touch new_file.md
+echo "A story line..." >> README.md
+
+# Stage the changed files
+git add new_file.md README.md
+
+# Take snapshot of the staging area
+git commit -m "Created new_file and edited README"
+
+# Push changes to github
+git push
+``` 
