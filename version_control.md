@@ -19,7 +19,7 @@ We will construct a repository called `mp_work` and perform various file and ver
 
 The work here is based on the page: https://docs.github.com/en/get-started/using-git/about-git
 
-#### Part 1: Start a new repository and publish it to GitHub
+#### Part 1: Start a new repository and publish it on GitHub
 
 Start by creating a new repository on GitHub. (You need to create an account on Github first and then create a repository.  A suggested example of creating a repoistory is [Hello World](https://docs.github.com/en/get-started/start-your-journey/hello-world).) In the present example I created an empty repository 
 called `mp_work`. You should not initialise the repostory with a README or other files... it should be empty, waiting for your code. 
