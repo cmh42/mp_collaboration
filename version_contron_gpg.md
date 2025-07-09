@@ -45,7 +45,7 @@ cp ../mp_work_old/*.* .
 git add --all
 
 # Take a snapshot of the staging area with information message
-git commit -m "Add all original files 010725"
+git commit -m "Add all original files 090725"
 
 # provide the path for the repository you created on github
 git remote add origin https://github.com/cmh42/mp_tasks.git
