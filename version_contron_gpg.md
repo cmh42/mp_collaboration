@@ -1,4 +1,4 @@
-# Version Control
+# Version Control (using GPG authentification)
 
 ### Preliminaries
 
